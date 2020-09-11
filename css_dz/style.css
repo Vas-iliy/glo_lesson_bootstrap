@@ -3,6 +3,9 @@ body {
     font-family: Tahoma, serif;
     color: black;
 }
+img {
+    max-width: 100%;
+}
 .header {
     padding-top: 77px;
     padding-bottom: 96px;
@@ -38,9 +41,29 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin-right: 40px;
+    margin-bottom: 20px;
 }
 .button-o {
     background-color: transparent;
     border: 3px solid #f05a22;
     color: #f05a22;
+}
+.features {
+    background-color: #f2f2f2;
+    padding-top: 89px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.section-title {
+    margin-bottom: 91px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.features__img {
+    min-height: 55px;
+}
+.features__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
