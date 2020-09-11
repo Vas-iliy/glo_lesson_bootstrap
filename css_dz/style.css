@@ -3,9 +3,6 @@ body {
     font-family: Tahoma, serif;
     color: black;
 }
-img {
-    max-width: 100%;
-}
 .header {
     padding-top: 77px;
     padding-bottom: 96px;
@@ -66,4 +63,15 @@ img {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
+}
+.clients {
+    margin-top: 91px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.clients__img {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 40px;
 }
